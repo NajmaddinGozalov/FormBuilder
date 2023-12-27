@@ -1,0 +1,42 @@
+.elementsHeader {
+    color: var(--Gray-900, #101828);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    display: flex;
+    margin: 16px 0px;
+    padding-left: 28px;
+    align-items: center;
+    gap: 12px;
+}
+
+.inputElement {
+    display: flex;
+    margin: 16px 16px;
+    align-items: center;
+    gap: 4px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid var(--Gray-200, #EAECF0);
+    background: var(--Base-White, #FFF);
+    /* Shadow/sm */
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06), 0px 1px 3px 0px rgba(16, 24, 40, 0.10);
+}
+
+.inputsContainer {
+    width: 100%;
+}
+
+.elementslabel {
+    color: var(--Gray-900, #101828);
+    /* Text md/Medium */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+}
